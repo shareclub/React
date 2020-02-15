@@ -9,7 +9,7 @@
 2. 相关企业：
 点击相关企业，会有个下拉菜单，提供相应的职位选项。用户选择想要查找的选项，点击导航，跳转到相关页面，右侧显示相关职位信息，包括职称、公司、地址、薪资、发布日期等信息。
 
-    ![系统用例图](images/图片1.png)
+    ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%871.png)
 
 ## 三、性能需求
 1. 性能：
@@ -37,35 +37,35 @@ cnpm是淘宝团队做的国内镜像，因为npm的服务器位于国外可能�
 ## 五、设计方案
 1. 数据获取模块 
 - 爬虫模块
-> ![系统用例图](images/图片2.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%872.png)
 - 数据格式转换模块
-> ![系统用例图](images/图片3.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%873.png)
 2. 数据展示模块
 - 展示模块
-> ![系统用例图](images/图片4.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%874.png)
 3. 模块结合
-> ![系统用例图](images/图片5.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%875.png)
 
 
 ## 六、系统实现
 
 1. 系统主界面:
 显示系统欢迎页，提供侧边导航栏。
-> ![系统用例图](images/图片6.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%876.png)
 
 2. 职位分布:
 点击职位分布，会有5个二级菜单提供渲染，目前提供查询的有web、Java、PHP、Python、Hadoop，点击需要查询的职位，则会在右侧地图中显示相对应的职位数量的分布情况。
-> ![系统用例图](images/图片7.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%877.png)
 
 3. 为了强调招聘量排名靠前的城市，在地图上会显示区别于其他城市的特效，让用户直观清晰地了解到该职位在哪些城市更加受欢迎，需求更大。
-> ![系统用例图](images/图片8.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%878.png)
 4. 使用鼠标滚轮可控制地图的放大缩小功能，将鼠标放置在地图上紫色的散点，会显示招聘量信息。
-> ![系统用例图](images/图片9.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%879.png)
 5. 相关企业:
 主要是将招聘职位的相关企业使用列表的形式显示出来，这样可以快速查看有哪些招聘该职位员工的企业。目前同样是提供查询的同样有五个职位web、Java、PHP、Python、Hadoop。点击相关企业，会打开二级菜单，点击需要查询企业，在右侧就会显示相对应的企业信息，包括招聘职位，公司，地址，薪资，日期。
-> ![系统用例图](images/图片10.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%8710.png)
 6. 在页面的右下方提供分页功能，可选择上一页，下一页，或指定页码
-> ![系统用例图](images/图片11.png)
+> ![系统用例图](https://github.com/shareclub/React/blob/master/Jobs_map/images/%E5%9B%BE%E7%89%8711.png)
 
 ## 总结与体会
 从项目准备阶段，项目开发阶段（系统的需求设计、开发编码、系统测试、系统优化），项目文档撰写，该项目耗时大约一个月。从中收益良多：
